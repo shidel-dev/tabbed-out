@@ -1,0 +1,86 @@
+<!doctype html>
+
+	<head>
+		
+<style type="text/css">
+    body {
+      overflow: hidden;
+      margin: 0px;
+      padding: 0px;
+      background: white;
+      width:200px;
+    }
+    div {
+      cursor: pointer;
+      text-align: center;
+      padding: 1px 3px;
+      font-family: sans-serif;
+      font-size: 1em;
+      width: 200px;
+      height:2em;
+      line-height: 2em;
+      margin-top: 1px;
+      background: #cccccc;
+      
+    }
+
+       div:hover {
+      background: #aaaaaa;
+    }
+
+    span>a {
+      cursor: pointer;
+      text-align: left;
+      padding: 1px 3px;
+      font-family: sans-serif;
+      font-size: 1em;
+      white-space: nowrap;
+     
+      margin-top: 1px;
+      
+
+
+    }
+#history>span>div{position: relative;
+display: inline;
+margin-left: 60%;
+top: 33px;
+border: 1px solid;
+background-color: #f2f3f2;}
+
+
+#history{width:700px;
+	height: 800px;
+    z-index:2;
+    display:none;
+background-color: #ffffff;
+position: absolute;top:0px;
+overflow-x:hidden;
+text-overflow:ellipsis;
+}
+
+#history>span{padding-top: 5px;}
+
+
+</style>
+<script src='popup.js'></script>
+</head>
+<body>
+	<div class='main' id='closeall'>
+	Cose All
+	</div>
+
+	<div class='main' id='saved'>
+	Saved
+	</div>
+
+	
+
+
+	<span id='history'>
+
+	</span>
+
+</body>
+
+</html>
