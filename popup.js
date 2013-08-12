@@ -43,7 +43,11 @@ chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
 
 document.addEventListener('DOMContentLoaded', function () {
 
+
     var tabH
+
+
+
     var history = document.getElementById('history');
     var divs = document.getElementsByClassName('main');
     for (var i = 0; i < divs.length; i++) {
@@ -63,7 +67,11 @@ document.addEventListener('DOMContentLoaded', function () {
             chrome.storage.local.get({
                 v: []
             }, function (items) {
+
                  tabH = items.v;
+
+                var tabH = items.v;
+
               
                 for (var i = tabH.length-1; i > 0; i--) {
 
@@ -93,6 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
 
                 function restoreclick(e) {
+
                 
                     var cid = e.target.id;
 
@@ -101,6 +110,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     for (var r = 1; r < his.length; r++) {
                   
+
+                   
+                    var cid = e.target.id;
+
+                    var his = items.v[cid];
+                    chrome.extension.getBackgroundPage().console.log(his);
+                   chrome.extension.getBackgroundPage().console.log(cid);
+                    chrome.extension.getBackgroundPage().console.log(his.length);
+
+                    for (var r = 1; r < his.length; r++) {
+                   chrome.extension.getBackgroundPage().console.log(r);
+
                         chrome.tabs.create({url: his[r],active:false})
                     }
 
