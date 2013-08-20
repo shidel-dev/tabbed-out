@@ -1,10 +1,8 @@
 {
 
-  "name": "tabbed-out",
-  "version": ".7",
+  "name": "tabbed out",
+  "version": "1.2.1",
 
-  "name": "tab shrink",
-  "version": "2.0",
 
   "permissions": [
     "activeTab",
