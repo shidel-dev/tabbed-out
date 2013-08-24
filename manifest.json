@@ -1,7 +1,7 @@
 {
 
-  "name": "tabbed out",
-  "version": "1.2.1",
+  "name": "tab out!",
+  "version": "1.2.3",
 
 
   "permissions": [
@@ -17,7 +17,7 @@
 
     "default_icon": "icontab.png",
 
-    "default_title": "tab organizer",
+    "default_title": "tab out!",
     "default_popup": "menu.html"
 
   },
