@@ -9,5 +9,5 @@ technologies used:
 - local storage
 - javaScript
 
-Download app in chrome web store:  https://chrome.google.com/webstore/detail/tab-out/kkbmchfmigdklofchjpofhhacnddaojk
+Download app in the Chrome web store:  https://chrome.google.com/webstore/detail/tab-out/kkbmchfmigdklofchjpofhhacnddaojk
 
