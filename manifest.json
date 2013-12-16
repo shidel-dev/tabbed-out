@@ -1,7 +1,7 @@
 {
 
   "name": "Tab Out!",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "discription": "chrome extension which manages tabs-- allows the closing of all tabs and saves the session to be restored later.",
 
   "permissions": [
